@@ -1,0 +1,265 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+::root{
+  --Strong-cyan: hsl(172, 67%, 45%);
+ --Very-dark-cyan: hsl(183, 100%, 15%);
+--Dark-grayish-cyan: hsl(186, 14%, 43%);
+--Dark-grayish-cyan: hsl(184, 14%, 56%);
+--Light-grayish-cyan: hsl(185, 41%, 84%);
+--Light-grayish-cyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: hsl(185, 41%, 84%); 
+}
+.container{
+        
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+}
+.logo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.main-container{
+    width: 800px;
+    height: 400px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+}
+.float-left{
+    width: 400px;
+    height: 400px;
+    
+}
+.float-right{
+    width: 350px;
+    height: 350px;
+    background: hsl(183, 100%, 15%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-right: 15px;
+    
+}
+.select-tip{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+}
+.tip-title{
+    margin-left: -110px;
+    margin-bottom: 10px;
+    color:  hsl(184, 14%, 56%);
+    
+}
+.select-tip-1{
+    display: flex;
+    
+    
+}
+.select-tip-1 p{
+    width: 90px;
+    height: 35px;
+   border-radius: 5px;
+    background: hsl(183, 100%, 15%) ;
+    color:white ;
+    margin-left: 20px;
+    
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top:5px ;
+}
+.select-tip-1 p:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+.select-tip-2 p:hover{
+    background-color: hsl(172, 67%, 45%);
+}
+.select-tip-2 p{
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    background: hsl(183, 100%, 15%) ;
+    color:white ;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-top:5px ;
+}
+.select-tip-2 input{
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    background: hsl(189, 41%, 97%);
+    color:hsl(186, 14%, 43%) ;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    padding-top:5px ;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    padding-left: 5px;
+}
+.select-tip-2{
+    display: flex;
+    
+}
+.currency{
+    border: none;
+    background:hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+    padding-left: 10px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius:5px ;
+    
+}
+.bill{
+    display: flex;
+    flex-direction: column;
+}
+.bill label{
+    color:  hsl(184, 14%, 56%);
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    
+}
+.bill input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background:hsl(189, 41%, 97%);
+    border-radius:5px ;
+    padding-right: 5px;
+    float: right;
+  
+}
+.people{
+    position: absolute;
+    left: 50px;
+    bottom: 80px;
+    
+
+}
+.currency-2{
+    border: none;
+    background:hsl(189, 41%, 97%);
+    color: hsl(184, 14%, 56%);
+    padding-left: 10px;
+    border-radius:5px ;
+    display: flex;
+}
+.currency-2 input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background:hsl(189, 41%, 97%);
+    border-radius:5px ;
+    padding-right: 5px;
+    float: right;
+    clear: both;
+}
+.currency-2 img{
+    background: hsl(189, 41%, 97%) ;
+    padding: 10px;
+    
+
+}
+.tip-amount{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.tip-bold{
+ color: hsl(189, 41%, 97%);
+}
+.tip-small{
+  color: hsl(184, 14%, 56%);
+}
+.tip-number-1{
+    color: hsl(172, 67%, 45%) ;
+    font-size: 30px;
+   
+}
+.tip-number-2{
+    color: hsl(172, 67%, 45%) ;
+    font-size: 30px;
+}  
+button{
+    margin-top: 100px;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:hsl(186, 14%, 43%) ;
+    border: none;
+    font-size: 20px;
+    color: hsl(183, 100%, 15%);
+}
+button:hover{
+    background-color:hsl(172, 67%, 45%) ;
+    cursor: pointer;
+}
+.currency img{
+    padding-top: 10px;
+}
+.number-of-people{
+    color:hsl(184, 14%, 56%) ;
+    position: absolute;
+    bottom: 120px;
+    left: 70px;
+    margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width:500px) {
+    .main-container{
+        display: flex;
+        height: 700px;
+        width: 380px;
+       
+    }
+    .number-of-people{
+        top: 250px;
+    }
+    .people{
+        top: 280px;
+    }
+    .float-right{
+        margin-right:50px ;
+       margin-top: 340px;
+       height: 300px;
+    }
+    .float-left{
+        margin-top: 5px;
+    }
+    .logo{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    button{
+        margin-top: 50px;
+    }
+}
